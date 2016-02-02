@@ -9,7 +9,7 @@ plugin "ctrlp-register", "https://github.com/mattn/ctrlp-register"
 plugin "ctrlp-extensions", "https://github.com/sgur/ctrlp-extensions.vim" # yankring, etc.
 
 # project tree navigation
-plugin "nerdtree", "https://github.com/scrooloose/nerdtree.git"
+# plugin "nerdtree", "https://github.com/scrooloose/nerdtree.git"
 
 # search in project
 plugin "ack", "https://github.com/mileszs/ack.vim.git"
@@ -22,11 +22,14 @@ plugin "autotag", "https://github.com/craigemery/vim-autotag"
 
 # color schemes
 plugin "base16", "https://github.com/chriskempson/base16-vim.git"
+plugin "solarized", "https://github.com/altercation/vim-colors-solarized"
+plugin "ir_black", "https://github.com/twerth/ir_black"
 
 plugin "show-trailing-whitespace", "https://github.com/vim-scripts/ShowTrailingWhitespace"
 
 # code commenting
-plugin "nerdcommenter", "https://github.com/scrooloose/nerdcommenter.git"
+#plugin "nerdcommenter", "https://github.com/scrooloose/nerdcommenter.git"
+plugin "commentary", "https://github.com/tpope/vim-commentary.git"
 
 # pairs of surroundings
 plugin "surround", "https://github.com/tpope/vim-surround.git"
@@ -57,12 +60,12 @@ plugin "syntastic", "https://github.com/scrooloose/syntastic.git"
 plugin "matchit", "https://github.com/edsono/vim-matchit.git"
 
 # merge tabs together
-plugin "tabmerge" do
-  mkdir_p "plugin"
-  sh "curl -s 'http://www.vim.org/scripts/download_script.php?src_id=8828' > plugin/Tabmerge.vim"
-end
+#plugin "tabmerge" do
+#  mkdir_p "plugin"
+#  sh "curl -s 'http://www.vim.org/scripts/download_script.php?src_id=8828' > plugin/Tabmerge.vim"
+#end
 
-plugin "vim-multiple-cursors", "https://github.com/terryma/vim-multiple-cursors"
+# plugin "vim-multiple-cursors", "https://github.com/terryma/vim-multiple-cursors"
 
 # align vs tabular plugins
 # plugin "tabular", "https://github.com/godlygeek/tabular.git"
@@ -77,7 +80,7 @@ plugin "tlib", "https://github.com/tomtom/tlib_vim.git"
 plugin "addon-mw-utils", "https://github.com/MarcWeber/vim-addon-mw-utils.git"
 
 # fast autocomplete
-plugin "neocomplete", "https://github.com/Shougo/neocomplete.git"
+# plugin "neocomplete", "https://github.com/Shougo/neocomplete.git"
 
 # async execution, builds neocomplcache in the background
 plugin "vimproc", "https://github.com/Shougo/vimproc.git" do

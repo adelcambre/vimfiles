@@ -5,7 +5,7 @@
 
 """ important
 
-set nocompatible " vim, not vi
+" set nocompatible " vim, not vi
 
 """ moving around, searching and patterns
 
@@ -26,7 +26,7 @@ set list " show invisible characters
 set listchars=tab:\ \ ,trail:⋅,nbsp:⋅,extends:»,precedes:«
 
 set number " show line numbers
-set relativenumber " and relatively so
+" set relativenumber " and relatively so
 
 """ syntax, highlighting, and spelling
 
@@ -37,9 +37,9 @@ syntax enable " turn on syntax highlighting, allow overrides
 set hlsearch " highlight matches
 
 set cursorline " show screen line for cursor
-set cursorcolumn " show screen line for cursor
+" set cursorcolumn " show screen line for cursor
 
-set colorcolumn=+0,120 " show line at textwidth and 120 chars
+" set colorcolumn=+0,120 " show line at textwidth and 120 chars
 
 """ multiple windows
 

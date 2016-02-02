@@ -1,1 +1,1 @@
-colorscheme base16-tomorrow
+colorscheme ir_black

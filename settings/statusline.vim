@@ -23,7 +23,7 @@ set statusline+=%#error#
 set statusline+=%{StatuslineTabWarning()}
 set statusline+=%*
 
-" set statusline+=%{StatuslineTrailingSpaceWarning()}
+set statusline+=%{StatuslineTrailingSpaceWarning()}
 
 " set statusline+=%{StatuslineLongLineWarning()}
 
