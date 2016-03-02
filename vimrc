@@ -13,3 +13,4 @@ source $HOME/.config/nvim/settings/plugins.vim      " plugin settings
 source $HOME/.config/nvim/settings/autocommands.vim " autocommands
 source $HOME/.config/nvim/settings/misc.vim         " miscellaneous additional customizations
 
+set tags+=".git/tags"
