@@ -69,7 +69,7 @@ plugin "matchit", "https://github.com/edsono/vim-matchit.git"
 
 # align vs tabular plugins
 # plugin "tabular", "https://github.com/godlygeek/tabular.git"
-plugin "align", "https://github.com/tsaleh/vim-align.git"
+plugin "easy-align", "https://github.com/junegunn/vim-easy-align"
 
 # snippets
 plugin "snipmate", "https://github.com/garbas/vim-snipmate.git"
