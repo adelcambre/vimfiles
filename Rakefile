@@ -17,6 +17,8 @@ plugin "ack", "https://github.com/mileszs/ack.vim.git"
 # ctags file management
 plugin "autotag", "https://github.com/craigemery/vim-autotag"
 
+plugin "projectionist", "https://github.com/tpope/vim-projectionist"
+
 
 ### EDITING AND MOVING
 
@@ -100,7 +102,8 @@ plugin "vim-ruby", "https://github.com/vim-ruby/vim-ruby.git"
 # highlight heredocs with the right syntax
 plugin "ruby-heredoc-syntax", "https://github.com/joker1007/vim-ruby-heredoc-syntax"
 # run ruby tests from inside vim
-plugin "vim-vroom", "https://github.com/skalnik/vim-vroom.git"
+# plugin "vim-vroom", "https://github.com/skalnik/vim-vroom.git"
+plugin "vim-test", "https://github.com/janko-m/vim-test.git"
 # toggle between :symbol "string" 'string', and more
 plugin "switch", "git://github.com/AndrewRadev/switch.vim.git"
 # toggle block style
@@ -137,6 +140,8 @@ plugin "json", "https://github.com/leshill/vim-json.git"
 plugin "go", "https://github.com/fatih/vim-go"
 
 plugin "rust", "https://github.com/wting/rust.vim"
+
+plugin "elixir", "https://github.com/elixir-lang/vim-elixir"
 
 # auto-expand html
 plugin "emmet", "https://github.com/mattn/emmet-vim"

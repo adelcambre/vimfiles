@@ -14,3 +14,7 @@ source $HOME/.config/nvim/settings/autocommands.vim " autocommands
 source $HOME/.config/nvim/settings/misc.vim         " miscellaneous additional customizations
 
 set tags+=".git/tags"
+set mouse=a
+
+nmap <silent> <leader>t :TestNearest<CR>
+nmap <silent> <leader>T :TestFile<CR>
