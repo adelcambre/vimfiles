@@ -59,7 +59,7 @@ plugin "unimpaired", "https://github.com/tpope/vim-unimpaired.git"
 plugin "syntastic", "https://github.com/scrooloose/syntastic.git"
 
 # extended matching for %
-plugin "matchit", "https://github.com/edsono/vim-matchit.git"
+# plugin "matchit", "https://github.com/edsono/vim-matchit.git"
 
 # merge tabs together
 #plugin "tabmerge" do
@@ -124,7 +124,7 @@ plugin "jshint", "https://github.com/wookiehangover/jshint.vim.git"
 plugin "liquid", "https://github.com/tpope/vim-liquid.git"
 plugin "markdown", "https://github.com/tpope/vim-markdown.git"
 plugin "nodejs", "https://github.com/mmalecki/vim-node.js.git"
-plugin "puppet", "https://github.com/ajf/puppet-vim.git"
+# plugin "puppet", "https://github.com/ajf/puppet-vim.git"
 plugin "rails", "https://github.com/tpope/vim-rails.git"
 plugin "bundler", "https://github.com/tpope/vim-bundler"
 # plugin "rspec", "https://github.com/taq/vim-rspec.git" # gone?
