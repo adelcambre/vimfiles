@@ -15,7 +15,7 @@ plugin "ctrlp-extensions", "https://github.com/sgur/ctrlp-extensions.vim" # yank
 plugin "ack", "https://github.com/mileszs/ack.vim.git"
 
 # ctags file management
-plugin "autotag", "https://github.com/craigemery/vim-autotag"
+# plugin "autotag", "https://github.com/craigemery/vim-autotag"
 
 plugin "projectionist", "https://github.com/tpope/vim-projectionist"
 
